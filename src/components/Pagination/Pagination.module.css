@@ -1,0 +1,21 @@
+.page_link {
+  cursor: pointer;
+  color: #333333;
+  padding: 5px 10px;
+  background-color: #fff;
+  border-radius: 6px;
+  border: 1px solid #333333;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
+.page_link:hover {
+  color: #fff;
+  background-color: #5ece7b;
+  border: none;
+}
+.pagination_container {
+  text-align: center;
+  max-width: 700px;
+  margin: 20px 20px 30px;
+}

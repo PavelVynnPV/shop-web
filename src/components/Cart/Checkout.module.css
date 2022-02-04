@@ -1,0 +1,77 @@
+.container {
+  max-width: 500px;
+  margin: auto;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: rgba(8, 121, 155, 0.425);
+  position: relative;
+  min-height: 400px;
+}
+.title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+form {
+  max-width: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: auto;
+}
+label {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  margin: 0 0 25px 0;
+}
+input {
+  margin-top: 10px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid rgba(0, 0, 255, 0.589);
+  border-radius: 5px;
+}
+input::placeholder {
+  padding: 5px;
+}
+.red {
+  color: red;
+}
+.btn {
+  position: absolute;
+  bottom: 40px;
+  right: 55px;
+  padding: 5px 30px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgba(0, 0, 255, 0.589);
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+}
+.btn:hover {
+  background-color: #fff;
+  color: #000;
+}
+.finish_img {
+  width: 100%;
+  background-size: cover;
+}
+@media (max-width: 450) {
+  section {
+    text-align: center;
+    padding: 0 20px;
+    margin: auto;
+  }
+  input {
+    width: 50px;
+  }
+}
+
+@media (max-width: 350) {
+  .btn {
+    top: 0;
+  }
+}

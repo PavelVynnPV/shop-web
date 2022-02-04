@@ -1,0 +1,18 @@
+.Green {
+    background-color: green !important;
+}
+.Cyan {
+    background-color: cyan !important;
+}
+.Black {
+    background-color: black !important;
+}
+.White {
+    background-color: white !important;
+}
+.Blue {
+    background-color: blue !important;
+}
+.Green, .Cyan, .Black, .Blue, .White {
+    padding: 2px 20px;
+}
